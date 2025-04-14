@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Blogs\Commands\CreateBlog\" />
+    <Folder Include="Blogs\Commands\DeleteBLog\" />
+    <Folder Include="Blogs\Commands\UpdateBlog\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Behaviours\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+</Project>
