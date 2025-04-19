@@ -469,23 +469,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nmaglica\\.nuget\\packages\\": {},
+    "C:\\Users\\Nikolas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dipl\\WebApplication1\\WebApplication1\\AutoMehApi.csproj",
+      "projectUniqueName": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
       "projectName": "AutoMehApi",
-      "projectPath": "D:\\dipl\\WebApplication1\\WebApplication1\\AutoMehApi.csproj",
-      "packagesPath": "C:\\Users\\nmaglica\\.nuget\\packages\\",
-      "outputPath": "D:\\dipl\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
+      "packagesPath": "C:\\Users\\Nikolas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nmaglica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -500,11 +500,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\dipl\\WebApplication1\\Application\\Application.csproj": {
-              "projectPath": "D:\\dipl\\WebApplication1\\Application\\Application.csproj"
+            "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj"
             },
-            "D:\\dipl\\WebApplication1\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\dipl\\WebApplication1\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
