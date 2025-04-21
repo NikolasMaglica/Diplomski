@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Application.Blogs.Commands.CreateBlog
 {
-	public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommand, BlogVm>
+	public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommand, BlogBM>
 	{
 		private readonly IBlogRepository _blogRepository;
 		private readonly IMapper _mapper;
