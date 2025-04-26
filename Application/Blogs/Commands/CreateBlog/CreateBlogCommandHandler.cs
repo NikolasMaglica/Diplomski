@@ -23,7 +23,7 @@ namespace Application.Blogs.Commands.CreateBlog
 		}
 		public async Task<BlogBM> Handle(CreateBlogCommand request, CancellationToken cancellationToken)
 		{
-			var blogEnity = new Blog() { Desctiption = request.Description, CreatedDate = request.CreatedDate, Author = request.Author };
+			var blogEnity = new Blog() { Desctiption = request.Description, CreatedDate = request.CreatedDate, Author = request.Author,ImageUrl=request.ImageUrl };
 			var Result = await _blogRepository.CreateAsync(blogEnity);
 			return _mapper.Map<BlogBM>(Result);
 		}

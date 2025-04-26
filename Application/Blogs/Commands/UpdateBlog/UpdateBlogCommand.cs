@@ -13,5 +13,6 @@ namespace Application.Blogs.Commands.UpdateBlog
 		public string Description { get; set; }
 		public string CreatedDate { get; set; }
 		public string Author { get; set; }
+		public string ImageUrl { get; set; }
 	}
 }

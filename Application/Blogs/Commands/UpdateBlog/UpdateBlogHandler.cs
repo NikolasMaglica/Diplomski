@@ -24,7 +24,8 @@ namespace Application.Blogs.Commands.UpdateBlog
 				Id = request.Id,
 				Desctiption = request.Description,
 				CreatedDate = request.CreatedDate,
-				Author = request.Author
+				Author = request.Author,
+				ImageUrl=request.ImageUrl
 			};
 
 			return await _blogRepository.UpdateAsync(request.Id, UdateblogEntity);

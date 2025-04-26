@@ -15,7 +15,7 @@ namespace Infrastructure
 
         {
           services.AddDbContext<BlogDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("BlogBbContext") ??
+                options.UseSqlServer(configuration.GetConnectionString("BlogDbContext") ??
                     throw new InvalidOperationException("connection string 'BlogBbContext not found '"))
             );
 

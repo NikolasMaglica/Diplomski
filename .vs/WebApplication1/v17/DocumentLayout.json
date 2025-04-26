@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\diplomski\\Diplomski\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F89C91B8-3DF7-45E3-B2BA-86CE10B99DF0}|Application\\Application.csproj|c:\\diplomski\\diplomski\\application\\blogs\\commands\\createblog\\createblogcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89C91B8-3DF7-45E3-B2BA-86CE10B99DF0}|Application\\Application.csproj|solutionrelative:application\\blogs\\commands\\createblog\\createblogcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D171DF2B-E1DB-4724-83CF-C0411593C8C9}|WebApplication1\\AutoMehApi.csproj|c:\\diplomski\\diplomski\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D171DF2B-E1DB-4724-83CF-C0411593C8C9}|WebApplication1\\AutoMehApi.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89C91B8-3DF7-45E3-B2BA-86CE10B99DF0}|Application\\Application.csproj|c:\\diplomski\\diplomski\\application\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89C91B8-3DF7-45E3-B2BA-86CE10B99DF0}|Application\\Application.csproj|solutionrelative:application\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateBlogCommandHandler.cs",
+              "DocumentMoniker": "C:\\diplomski\\Diplomski\\Application\\Blogs\\Commands\\CreateBlog\\CreateBlogCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Blogs\\Commands\\CreateBlog\\CreateBlogCommandHandler.cs",
+              "ToolTip": "C:\\diplomski\\Diplomski\\Application\\Blogs\\Commands\\CreateBlog\\CreateBlogCommandHandler.cs",
+              "RelativeToolTip": "Application\\Blogs\\Commands\\CreateBlog\\CreateBlogCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA7wBQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:38.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\diplomski\\Diplomski\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\diplomski\\Diplomski\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:00.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "C:\\diplomski\\Diplomski\\Application\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "Application\\ConfigurationService.cs",
+              "ToolTip": "C:\\diplomski\\Diplomski\\Application\\ConfigurationService.cs",
+              "RelativeToolTip": "Application\\ConfigurationService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:52:57.741Z",
+              "EditorCaption": ""
             }
           ]
         }

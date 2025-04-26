@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj": {}
+    "C:\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj": {
+    "C:\\diplomski\\Diplomski\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\diplomski\\Diplomski\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj",
+        "projectPath": "C:\\diplomski\\Diplomski\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Nikolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\obj\\",
+        "outputPath": "C:\\diplomski\\Diplomski\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\Domain.csproj"
+              "C:\\diplomski\\Diplomski\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\diplomski\\Diplomski\\Domain\\Domain.csproj"
               }
             }
           }
@@ -61,6 +61,18 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -83,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\Domain.csproj": {
+    "C:\\diplomski\\Diplomski\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\diplomski\\Diplomski\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\Domain.csproj",
+        "projectPath": "C:\\diplomski\\Diplomski\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Nikolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Domain\\obj\\",
+        "outputPath": "C:\\diplomski\\Diplomski\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,6 +144,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -154,14 +174,14 @@
         }
       }
     },
-    "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nikolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\obj\\",
+        "outputPath": "C:\\diplomski\\Diplomski\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,8 +202,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj"
+              "C:\\diplomski\\Diplomski\\Application\\Application.csproj": {
+                "projectPath": "C:\\diplomski\\Diplomski\\Application\\Application.csproj"
               }
             }
           }
@@ -204,6 +224,26 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -211,6 +251,14 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -233,14 +281,14 @@
         }
       }
     },
-    "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj": {
+    "C:\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
+        "projectUniqueName": "C:\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
         "projectName": "AutoMehApi",
-        "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
+        "projectPath": "C:\\diplomski\\Diplomski\\WebApplication1\\AutoMehApi.csproj",
         "packagesPath": "C:\\Users\\Nikolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\WebApplication1\\obj\\",
+        "outputPath": "C:\\diplomski\\Diplomski\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -261,11 +309,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Application\\Application.csproj"
+              "C:\\diplomski\\Diplomski\\Application\\Application.csproj": {
+                "projectPath": "C:\\diplomski\\Diplomski\\Application\\Application.csproj"
               },
-              "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Nikolas\\OneDrive\\Documents\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj"
+              "C:\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\diplomski\\Diplomski\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -289,6 +337,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
